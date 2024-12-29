@@ -19,6 +19,19 @@ let c = 'Hamza';
 let d = Symbol('Hey Iam a unique symbol');
 let e = true;
 let f = undefined;
-let g = BigInt(90);
+let g = BigInt(90) + BigInt(10)
 
 console.log(a,b,c,d,e,f,g);
+console.log(typeof a, typeof b , typeof c, typeof d, typeof e, typeof f, typeof g)
+
+// Primitive DataTypes Object;
+// An Object in Javascript can be created as follows;
+
+//  write a js programm to store name phone number and marks of student  using objects;
+
+const studentDetails = {
+    studentName : 'Hamza',
+    studentNumber : 30940385,
+    studentMarks : true
+}
+console.log(studentDetails['studentMarks'])
