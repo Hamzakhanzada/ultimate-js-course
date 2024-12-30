@@ -228,3 +228,17 @@ if(isWeekend === true && hasPlans === true) {
 } else {
     console.log("It's a working day")
 }
+
+const color = 'Blue';
+
+switch (color) {
+    case 'Blue':
+     console.log('Thats a Blue color')
+        break;
+    case 'red':
+    console.log('that is red color')
+
+    default:
+        console.log('Color are not match')
+        break;
+}
