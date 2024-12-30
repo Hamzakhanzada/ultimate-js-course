@@ -202,3 +202,29 @@ if(temperature > 30) {
 
 // 4. Question 4: Discount System
 // Ek variable totalAmount define karo. Agar totalAmount 1000 se zyada ho, toh 10% discount calculate karo aur print karo. Agar 500 se zyada ho lekin 1000 se kam ho, toh 5% discount calculate karo aur print karo. Agar 500 se kam ho, toh "No discount available" print karo.
+
+const totalAmount = 1500;
+if (totalAmount > 1000) {
+    console.log(' 10% discount ')
+} else if (totalAmount > 500 && totalAmount < 1000) {
+    console.log('5% discount')
+} else {
+    console.log("No discount available." )
+}
+
+
+// 5. Question 5: Logical Operator
+// Do variables define karo: isWeekend aur hasPlans. Agar dono variables true ho (matlab weekend hai aur plans hain), toh output karo "Enjoy your weekend!" Agar weekend hai lekin plans nahi hain, toh output karo "Relax this weekend." Agar weekend nahi hai, toh output karo "It's a working day."
+
+// Inhe solve karne ke baad, apne answers bhejo! Main tumhe review karunga.
+
+const isWeekend = true;
+const hasPlans = false;
+
+if(isWeekend === true && hasPlans === true) {
+    console.log('Enjoy your weekend!')
+} else if (isWeekend === true && hasPlans === false) {
+    console.log("Relax this weekend.")
+} else {
+    console.log("It's a working day")
+}
