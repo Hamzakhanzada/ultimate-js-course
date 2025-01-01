@@ -242,3 +242,43 @@ switch (color) {
         console.log('Color are not match')
         break;
 }
+
+
+// const userAge = prompt("What's Your age")
+// if(userAge > 10 &&  userAge < 20) {
+//     console.log('Thats valid age')
+// } else {
+//     console.log('This is not valid age')
+// }
+
+const userAge = prompt("What's Your age") 
+
+switch (userAge) {
+    case '11':
+        console.log('You are a Child');
+        break;
+    case '12':
+            console.log('You are a little baby');
+            break;
+    case '13':
+            console.log('You are a little girl');
+            break;
+    case '14':
+             console.log('You are a little dog baby');
+             break; 
+     case '15':
+        console.log('You are a \little donkey baby');
+        break;                
+    
+    default:
+        // console.log('You are a dumb buddy ')
+        break;
+}
+const booknumber = prompt("what's your booknumber")
+switch (booknumber) {
+
+
+
+
+    
+}
